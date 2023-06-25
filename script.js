@@ -63,7 +63,7 @@ function draw(){
   if(mouseIsPressed){
     //check each frame to see if the mouse is pressed, then do this
     mousePressed(); //activate function
-    strokeWeight(5); //shooting star thickness
+    strokeWeight(6); //shooting star thickness
     stroke(255, 240, 31); //gold-yellow color
     line(340, 140, 360, 160); //shooting star line 1
     line(340, 140, 320, 160); //shooting star line 2
